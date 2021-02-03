@@ -10,5 +10,5 @@ site:
   siteRootDir: docs
   usePrettyRefs: true
   title: Dendron
-  siteUrl: https://notes.nikitavoloboev.xyz
-  githubCname: notes.nikitavoloboev.xyz
+  siteUrl: https://epictools.dev
+  githubCname: epictools.dev
