@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html lang="en-US"><head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Alfred - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://notes.nikitavoloboev.xyz/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://notes.nikitavoloboev.xyz/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://notes.nikitavoloboev.xyz/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://notes.nikitavoloboev.xyz/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="canonical" href="https://notes.nikitavoloboev.xyz/notes/8c17d257-ff2f-41ed-9c7e-64056d3efdcc.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://notes.nikitavoloboev.xyz/notes/8c17d257-ff2f-41ed-9c7e-64056d3efdcc.html">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://notes.nikitavoloboev.xyzundefined">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://notes.nikitavoloboev.xyz/notes/8c17d257-ff2f-41ed-9c7e-64056d3efdcc.html">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://notes.nikitavoloboev.xyzundefined">
+
+
+  <meta property="og:title" content="Alfred - Dendron" />
+  <meta name="twitter:title" content="Alfred - Dendron" />
+  
+</head>
+
+
+<body style="">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+  
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://notes.nikitavoloboev.xyz" class="site-title lh-tight">
+  Dendron
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://notes.nikitavoloboev.xyz">root</a></li><li class="breadcrumb-nav-list-item">Alfred</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+  
+        
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Alfred">
+    
+    <meta itemprop="datePublished" content="2021-02-03T23:41:53+00:00">
+    <meta itemprop="dateModified" content="2021-02-03T23:41:53+00:00">
+
+    <div class="page__inner-wrap">
+      
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="alfred"><a aria-hidden="true" class="anchor-heading" href="#alfred"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Alfred</h1>
+<p>Strip title and subtext from input. Put inside <a href="https://www.alfredapp.com/help/workflows/utilities/json/">JSON utility</a>. Useful to get clean prompts in Alfred (i.e. it's used in <a href="https://github.com/nikitavoloboev/alfred-web-searches">web-searches</a> workflow)</p>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"alfredworkflow"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"arg"</span><span class="token operator">:</span> <span class="token string">"{query}"</span><span class="token punctuation">,</span>
+    <span class="token property">"config"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token property">"title"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"runningsubtext"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+      <span class="token property">"subtext"</span><span class="token operator">:</span> <span class="token string">""</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token property">"variables"</span><span class="token operator">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>Export workflow to a location with version number in clipboard.</p>
+<pre class="language-bash"><code class="language-bash"><span class="token builtin class-name">readonly</span> <span class="token assign-left variable">workflow_dir</span><span class="token operator">=</span><span class="token string">"{query}"</span>
+
+<span class="token keyword">if</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token operator">!</span> <span class="token string">"<span class="token variable">${workflow_dir}</span>"</span> <span class="token operator">==</span> *<span class="token string">'Alfred.alfredpreferences/workflows/user.workflow.'</span>* <span class="token punctuation">]</span><span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">"You need to be inside the workflow’s directory in Alfred’s preferences directory."</span> <span class="token operator">></span><span class="token file-descriptor important">&#x26;2</span>
+  <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+
+<span class="token builtin class-name">readonly</span> <span class="token assign-left variable">workflow_name</span><span class="token operator">=</span><span class="token string">"<span class="token variable"><span class="token variable">$(</span>/usr/libexec/PlistBuddy -c <span class="token string">'print name'</span> <span class="token string">"<span class="token variable">${workflow_dir}</span>/info.plist"</span><span class="token variable">)</span></span>"</span>
+<span class="token builtin class-name">readonly</span> <span class="token assign-left variable">workflow_version</span><span class="token operator">=</span><span class="token string">"<span class="token variable"><span class="token variable">$(</span>/usr/libexec/PlistBuddy -c <span class="token string">'print version'</span> <span class="token string">"<span class="token variable">${workflow_dir}</span>/info.plist"</span><span class="token variable">)</span></span>"</span>
+<span class="token builtin class-name">readonly</span> <span class="token assign-left variable">workflow_file</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${<span class="token environment constant">HOME</span>}</span>/Desktop/<span class="token variable">${workflow_name}</span>-<span class="token variable">${workflow_version}</span>.alfredworkflow"</span>
+
+<span class="token function">find</span> <span class="token string">"<span class="token variable">${workflow_dir}</span>"</span> -iname <span class="token string">'.DS_Store'</span> -delete
+
+<span class="token keyword">if</span> /usr/libexec/PlistBuddy -c <span class="token string">'Print variablesdontexport'</span> <span class="token string">"<span class="token variable">${workflow_dir}</span>/info.plist"</span> <span class="token operator">&#x26;></span> /dev/null
+<span class="token keyword">then</span>
+  <span class="token builtin class-name">readonly</span> <span class="token assign-left variable">workflow_dir_to_package</span><span class="token operator">=</span><span class="token string">"<span class="token variable"><span class="token variable">$(</span>mktemp -d<span class="token variable">)</span></span>"</span>
+  <span class="token function">cp</span> -R <span class="token string">"<span class="token variable">${workflow_dir}</span>/"</span>* <span class="token string">"<span class="token variable">${workflow_dir_to_package}</span>"</span>
+  <span class="token builtin class-name">readonly</span> <span class="token assign-left variable">tmp_info_plist</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${workflow_dir_to_package}</span>/info.plist"</span>
+  /usr/libexec/PlistBuddy -c <span class="token string">'print variablesdontexport'</span> <span class="token string">"<span class="token variable">${tmp_info_plist}</span>"</span> <span class="token operator">|</span> <span class="token function">grep</span> <span class="token string">'    '</span> <span class="token operator">|</span> <span class="token function">sed</span> -E <span class="token string">'s/ {4}//'</span> <span class="token operator">|</span> <span class="token function">xargs</span> -I <span class="token punctuation">{</span><span class="token punctuation">}</span> /usr/libexec/PlistBuddy -c <span class="token string">"set variables:'{}' ''"</span> <span class="token string">"<span class="token variable">${tmp_info_plist}</span>"</span>
+<span class="token keyword">else</span>
+  <span class="token builtin class-name">readonly</span> <span class="token assign-left variable">workflow_dir_to_package</span><span class="token operator">=</span><span class="token string">"<span class="token variable">${workflow_dir}</span>"</span>
+<span class="token keyword">fi</span>
+
+<span class="token keyword">if</span> ditto -ck <span class="token string">"<span class="token variable">${workflow_dir_to_package}</span>"</span> <span class="token string">"<span class="token variable">${workflow_file}</span>"</span>
+<span class="token keyword">then</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">"Created <span class="token variable">${workflow_file}</span>"</span>
+  <span class="token builtin class-name">exit</span> <span class="token number">0</span>
+<span class="token keyword">else</span>
+  <span class="token builtin class-name">echo</span> <span class="token string">"There was and error creating <span class="token variable">${workflow_file}</span>"</span>
+  <span class="token builtin class-name">exit</span> <span class="token number">1</span>
+<span class="token keyword">fi</span>
+</code></pre><span id="navId" data="8c17d257-ff2f-41ed-9c7e-64056d3efdcc"></span>
+
+
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+                
+                
+              </div>
+            
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+</body>
+</html>

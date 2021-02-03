@@ -2,7 +2,7 @@
 id: 3b70dd76-e2b4-48fc-89f2-215bd5cc1b53
 title: Cmd Explain
 desc: ""
-updated: 1612393098033
+updated: 1612393669649
 created: 1612392113550
 ---
 

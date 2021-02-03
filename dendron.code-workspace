@@ -3,6 +3,9 @@
         {
             "path": "vault"
         }
+        // {
+        //   "path": "."
+        // }
     ],
     "settings": {
         "dendron.rootDir": ".",

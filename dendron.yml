@@ -1,12 +1,14 @@
 version: 1
+useNoteTitleForLink: false
 vaults:
-    -
-        fsPath: vault
+  - fsPath: vault
 useFMTitle: true
 site:
-    copyAssets: true
-    siteHierarchies:
-        - root
-    siteRootDir: docs
-    usePrettyRefs: true
-    title: Dendron
+  copyAssets: true
+  siteHierarchies:
+    - root
+  siteRootDir: docs
+  usePrettyRefs: true
+  title: Dendron
+  siteUrl: https://notes.nikitavoloboev.xyz
+  githubCname: notes.nikitavoloboev.xyz

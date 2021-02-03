@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+
+<html lang="en-US"><head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  
+  <title>Config - Dendron</title>
+  
+
+  <link
+    rel="shortcut icon"
+    href="https://notes.nikitavoloboev.xyz/favicon.ico"
+    type="image/x-icon"
+  />
+  <link
+    rel="stylesheet"
+    href="https://notes.nikitavoloboev.xyz/assets/css/just-the-docs-default.css"
+  />
+  <script
+    type="text/javascript"
+    src="https://notes.nikitavoloboev.xyz/assets/js/just-the-docs.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.22.0/themes/prism.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+    integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X"
+    crossorigin="anonymous"
+  />
+  <script
+    type="text/javascript"
+    src="https://notes.nikitavoloboev.xyz/assets/js/vendor/lunr.min.js"
+  ></script>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+  
+<meta name="description" content="">
+<meta name="author" content="">
+
+<link rel="canonical" href="https://notes.nikitavoloboev.xyz/notes/997aa0e2-f452-425a-b752-122dbd8f62e6.html">
+
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://notes.nikitavoloboev.xyz/notes/997aa0e2-f452-425a-b752-122dbd8f62e6.html">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://notes.nikitavoloboev.xyzundefined">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://notes.nikitavoloboev.xyz/notes/997aa0e2-f452-425a-b752-122dbd8f62e6.html">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://notes.nikitavoloboev.xyzundefined">
+
+
+  <meta property="og:title" content="Config - Dendron" />
+  <meta name="twitter:title" content="Config - Dendron" />
+  
+</head>
+
+
+<body style="">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="svg-link" viewBox="0 0 24 24">
+        <title>Link</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+          <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+        </svg>
+      </symbol>
+      <symbol id="svg-search" viewBox="0 0 24 24">
+        <title>Search</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+          <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-menu" viewBox="0 0 24 24">
+        <title>Menu</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+          <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </symbol>
+      <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+        <title>Expand</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </symbol>
+      <symbol id="svg-doc" viewBox="0 0 24 24">
+        <title>Document</title>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+          <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+        </svg>
+      </symbol>
+    </svg>
+  
+    <div class="side-bar">
+      <div class="site-header">
+        <a href="https://notes.nikitavoloboev.xyz" class="site-title lh-tight">
+  Dendron
+
+ </a>
+        <a href="#" id="menu-button" class="site-button">
+          <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+        </a>
+      </div>
+
+      <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      </nav>
+      <footer class="site-footer">
+        🌱 with 💕 using <a href="https://www.dendron.so/"> Dendron 🌲 </a>
+      </footer>
+    </div>
+    <div class="main" id="top">
+        <div id="main-header" class="main-header">
+          
+            <div class="search">
+              <div class="search-input-wrap">
+                <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search Dendron" aria-label="Search Dendron" autocomplete="off">
+                <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+              </div>
+              <div id="search-results" class="search-results"></div>
+            </div>
+          
+          
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://notes.nikitavoloboev.xyz">root</a></li><li class="breadcrumb-nav-list-item">Config</li></ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+
+        
+        
+  
+        
+
+        
+
+<div id="main" role="main">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Config">
+    
+    <meta itemprop="datePublished" content="2021-02-03T23:41:53+00:00">
+    <meta itemprop="dateModified" content="2021-02-03T23:41:53+00:00">
+
+    <div class="page__inner-wrap">
+      
+      
+
+      <section class="page__content" itemprop="text">
+
+        
+
+        <h1 id="config"><a aria-hidden="true" class="anchor-heading" href="#config"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Config</h1>
+<h2 id="config-1"><a aria-hidden="true" class="anchor-heading" href="#config-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Config</h2>
+<h3 id="macos-apps-i-have-installed"><a aria-hidden="true" class="anchor-heading" href="#macos-apps-i-have-installed"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>macOS apps I have installed</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># Output of `ls /Applications`</span>
+1Password <span class="token number">7</span>.app
+2Do.app
+Alfred <span class="token number">4</span>.app
+Android Studio.app
+AppCleaner.app
+Aviary.app
+BetterTouchTool.app
+CleanShot X.app
+Darkroom.app
+Dash.app
+Deliveries.app
+Discord.app
+Docker.app
+Fantastical.app
+Figma.app
+Google Chrome Canary.app
+IINA.app
+Karabiner-Elements.app
+Karabiner-EventViewer.app
+Keyboard Maestro.app
+Loom.app
+Marked <span class="token number">2</span>.app
+MindNode.app
+Notion.app
+Paw.app
+Pixave.app
+Pixelmator Pro.app
+Postico <span class="token number">2</span>.app
+Proxyman.app
+Reeder.app
+Safari.app
+Sip.app
+Slack.app
+Spark.app
+Spline.app
+Spotify.app
+Sublime Merge.app
+Sublime Text.app
+Syncalicious.app
+Telegram.app
+Textual <span class="token number">7</span>.app
+Transmission.app
+Tweetbot.app
+Utilities
+Vimari.app
+Visly.app
+Visual Studio Code - Insiders.app
+WhatsApp.app
+Wipr.app
+Xcode.app
+iTerm.app
+zoom.us.app
+</code></pre>
+<h3 id="cli-tools-i-use"><a aria-hidden="true" class="anchor-heading" href="#cli-tools-i-use"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>CLI tools I use</h3>
+<pre class="language-bash"><code class="language-bash"><span class="token comment"># Brew (/usr/local/bin)</span>
+agda
+antibody
+aom
+<span class="token function">bash</span>
+bat
+cabal-install
+cairo
+cloc
+clojure
+cmake
+dhall
+diff-so-fancy
+direnv
+dry
+emacs
+exa
+ffmpeg
+flac
+fnm
+fontconfig
+freetype
+frei0r
+fribidi
+fzf
+gdbm
+gettext
+ghc
+giflib
+<span class="token function">git</span>
+glib
+gmp
+gnutls
+go
+goku
+graphite2
+harfbuzz
+httpie
+hub
+hugo
+hyperfine
+icu4c
+idris
+jemalloc
+joker
+jpeg
+jq
+kubernetes-cli
+lame
+leptonica
+libass
+libbluray
+libevent
+libffi
+libidn2
+libogg
+libpng
+libsamplerate
+libsndfile
+libsoxr
+libtasn1
+libtermkey
+libtiff
+libunistring
+libuv
+libvorbis
+libvpx
+libvterm
+little-cms2
+loc
+lua
+luajit
+lzo
+mitmproxy
+msgpack
+mysql
+neovim
+nettle
+node
+oniguruma
+opencore-amr
+openjpeg
+openssl
+opus
+p11-kit
+pcre
+pcre2
+perl
+pixman
+pkg-config
+postgresql
+protobuf
+python
+python@2
+readline
+ripgrep
+rlwrap
+rtmpdump
+rubberband
+rustup-init
+screenfetch
+sdl2
+snappy
+speex
+sqlite
+tesseract
+theora
+tree
+unbound
+unibilium
+up
+watchexec
+webp
+<span class="token function">wget</span>
+wifi-password
+x264
+x265
+xvid
+xz
+<span class="token function">yarn</span>
+
+<span class="token comment"># Go (~/go/bin)</span>
+<span class="token number">2048</span>-ai
+alfred
+alfred-awesome-lists
+alfred-gcal
+aligncheck
+asmfmt
+bat
+caddy
+ccat
+chroma
+client
+cobra
+cowsay
+cowthink
+cowyo
+croc
+deadcode
+dep
+depth
+devd
+dlv
+domaincoloring
+dupl
+ecsy
+elvish
+errcheck
+fibutil
+fillstruct
+fuzzy-cached
+fuzzy-simple
+gas
+gb
+gb-vendor
+gin
+github-release
+go-bindata
+go-langserver
+go-outline
+Go-Package-Store
+go-pry
+go-search
+go-symbols
+goalfred
+gocode
+goconst
+gocyclo
+godef
+godoc
+gogetdoc
+goimports
+golang-restapi
+golint
+gometalinter
+gomodifytags
+gopkgs
+goplay
+gops
+gore
+gorename
+goreturns
+gorram
+gosimple
+gotags
+gotests
+gotop
+gotype
+gotype-live
+gowebapp
+guru
+hey
+httplab
+httpstat
+impl
+ineffassign
+interfacer
+jump
+lf
+license-up
+lll
+markdown-parser
+md-to-alfred
+md-to-list-filter
+megacheck
+misspell
+modd
+motion
+muffet
+multic
+ng
+nikitavoloboev
+pigeon
+playgo
+primitive
+protoc-gen-go
+pullkee
+pxl
+rayito
+rclone
+reflex
+richgo
+safesql
+serve
+server
+shfmt
+slicer
+snake-game
+static-docs
+staticcheck
+structcheck
+task
+Tasks
+thyme
+unconvert
+unparam
+unused
+usql
+varcheck
+weather
+
+<span class="token comment"># Rust (~/.cargo/bin)</span>
+cargo
+cargo-fmt
+karaconv
+loc
+rls
+rust-gdb
+rust-lldb
+rustc
+rustdoc
+rustfmt
+rustup
+
+<span class="token comment"># Yarn Global (/usr/local/bin)</span>
+create-react-app
+dnd
+do-not-disturb
+eslint
+fkill
+knex
+node-gyp
+nodemon
+<span class="token function">npm</span>
+npx
+ts-node
+tsc
+tslint
+tsserver
+prettier
+qnm
+webpack
+webpack-dev-server
+</code></pre>
+<h3 id="vimari"><a aria-hidden="true" class="anchor-heading" href="#vimari"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vimari</h3>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span>
+  <span class="token property">"excludedUrls"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+  <span class="token property">"linkHintCharacters"</span><span class="token operator">:</span> <span class="token string">"weafjkl:"</span><span class="token punctuation">,</span>
+  <span class="token property">"detectByCursorStyle"</span><span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  <span class="token property">"scrollSize"</span><span class="token operator">:</span> <span class="token number">150</span><span class="token punctuation">,</span>
+  <span class="token property">"openTabUrl"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+  <span class="token property">"modifier"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+  <span class="token property">"smoothScroll"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token property">"scrollDuration"</span><span class="token operator">:</span> <span class="token number">25</span><span class="token punctuation">,</span>
+  <span class="token property">"transparentBindings"</span><span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  <span class="token property">"bindings"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token property">"hintToggle"</span><span class="token operator">:</span> <span class="token string">"f"</span><span class="token punctuation">,</span>
+    <span class="token property">"newTabHintToggle"</span><span class="token operator">:</span> <span class="token string">"shift+f"</span><span class="token punctuation">,</span>
+    <span class="token property">"scrollUp"</span><span class="token operator">:</span> <span class="token string">"k"</span><span class="token punctuation">,</span>
+    <span class="token property">"scrollDown"</span><span class="token operator">:</span> <span class="token string">"j"</span><span class="token punctuation">,</span>
+    <span class="token property">"scrollLeft"</span><span class="token operator">:</span> <span class="token string">"h"</span><span class="token punctuation">,</span>
+    <span class="token property">"scrollRight"</span><span class="token operator">:</span> <span class="token string">"l"</span><span class="token punctuation">,</span>
+    <span class="token property">"goToPageTop"</span><span class="token operator">:</span> <span class="token string">"g g"</span><span class="token punctuation">,</span>
+    <span class="token property">"goToPageBottom"</span><span class="token operator">:</span> <span class="token string">"shift+g"</span><span class="token punctuation">,</span>
+    <span class="token property">"goToFirstInput"</span><span class="token operator">:</span> <span class="token string">"v"</span><span class="token punctuation">,</span>
+    <span class="token property">"goBack"</span><span class="token operator">:</span> <span class="token string">"shift+j"</span><span class="token punctuation">,</span>
+    <span class="token property">"goForward"</span><span class="token operator">:</span> <span class="token string">"shift+k"</span><span class="token punctuation">,</span>
+    <span class="token property">"reload"</span><span class="token operator">:</span> <span class="token string">"r"</span><span class="token punctuation">,</span>
+    <span class="token property">"tabBack"</span><span class="token operator">:</span> <span class="token string">"a"</span><span class="token punctuation">,</span>
+    <span class="token property">"tabForward"</span><span class="token operator">:</span> <span class="token string">"s"</span><span class="token punctuation">,</span>
+    <span class="token property">"closeTab"</span><span class="token operator">:</span> <span class="token string">"e"</span><span class="token punctuation">,</span>
+    <span class="token property">"scrollUpHalfPage"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+    <span class="token property">"scrollDownHalfPage"</span><span class="token operator">:</span> <span class="token string">""</span><span class="token punctuation">,</span>
+    <span class="token property">"openTab"</span><span class="token operator">:</span> <span class="token string">""</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="prettier"><a aria-hidden="true" class="anchor-heading" href="#prettier"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prettier</h3>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span><span class="token property-access">exports</span> <span class="token operator">=</span> <span class="token punctuation">{</span>
+  semi<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+  singleQuote<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+  tabWidth<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+  printWidth<span class="token operator">:</span> <span class="token number">100</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">;</span>
+</code></pre><span id="navId" data="997aa0e2-f452-425a-b752-122dbd8f62e6"></span>
+
+
+
+                
+      </section>
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+        
+          <hr>
+          <footer>
+            
+            
+
+            
+              <div class="d-flex mt-2">
+                
+                
+              </div>
+            
+          </footer>
+        
+    </div>
+</div>
+
+
+  
+
+  <div class="search-overlay"></div>
+
+</div>
+</body>
+</html>
