@@ -11,7 +11,7 @@ site:
   siteUrl: https://epictools.dev
   githubCname: epictools.dev
   usePrettyRefs: true
-  title: Wiki
+  title: 🏡
   description: Personal wiki
   config:
     root:
