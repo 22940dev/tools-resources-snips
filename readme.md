@@ -1,4 +1,4 @@
-# [My Extended Brain](https://epictools.dev/)
+# [My Extended Brain 🌿](https://epictools.dev/)
 
 This is currently an extension of [my wiki](https://wiki.nikitavoloboev.xyz). A place where I keep snippets of code/notes/config. As well as a place for deep thinking and connecting knowledge in meaningful ways. All done with a goal to create a digital version of my brain that I can seamlessly query and gain insight from.
 
@@ -8,7 +8,7 @@ As I am working on Dendron to make it better for everyone, I will also use this 
 
 The space of digital gardens is [still small](https://github.com/MaggieAppleton/digital-gardeners) and the tools are getting better. [Dendron](https://dendron.so), [Obsidian](https://obsidian.md), [Roam](https://roamresearch.com), [RemNote](https://www.remnote.io), [Sublime Text](https://www.sublimetext.com)..
 
-Gardens unlike blogs don't go stale and are easier to keep vibrant and grow organically. Take a look around and I hope I can inspire you to make your own [digital garden, where you share what you know](https://wiki.nikitavoloboev.xyz/#grow-your-own-digital-garden). I'd love to read it. 🌿
+Gardens unlike blogs don't go stale and are easier to keep vibrant and grow organically. Take a look around and I hope I can inspire you to make your own [digital garden, where you share what you know](https://wiki.nikitavoloboev.xyz/#grow-your-own-digital-garden). I'd love to read it. 🌱
 
 The source of this garden is on [GitHub](https://github.com/nikitavoloboev/epictools.dev).
 
