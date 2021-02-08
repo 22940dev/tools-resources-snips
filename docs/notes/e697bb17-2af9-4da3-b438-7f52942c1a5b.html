@@ -158,8 +158,7 @@
 
         
 
-        <h1 id="bash"><a aria-hidden="true" class="anchor-heading" href="#bash"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Bash</h1>
-<pre class="language-bash"><code class="language-bash"><span class="token comment"># Check if command is in PATH</span>
+        <pre class="language-bash"><code class="language-bash"><span class="token comment"># Check if command is in PATH</span>
 <span class="token function-name function">checkDep</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
      <span class="token assign-left variable">path</span><span class="token operator">=</span><span class="token variable"><span class="token variable">`</span><span class="token builtin class-name">command</span> -v $<span class="token punctuation">{</span><span class="token number">1</span><span class="token punctuation">}</span><span class="token variable">`</span></span> <span class="token operator">&#x26;&#x26;</span> <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${1}</span> found at <span class="token variable">${path}</span>"</span> <span class="token operator">||</span> <span class="token punctuation">{</span> <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable">${1}</span> not found"</span> <span class="token operator">></span><span class="token file-descriptor important">&#x26;2</span> <span class="token punctuation">;</span> <span class="token builtin class-name">exit</span> <span class="token number">1</span><span class="token punctuation">;</span> <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>

@@ -158,8 +158,7 @@
 
         
 
-        <h1 id="macos-defaults"><a aria-hidden="true" class="anchor-heading" href="#macos-defaults"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Macos Defaults</h1>
-<pre class="language-bash"><code class="language-bash"><span class="token comment"># Remove dock animation. https://www.reddit.com/r/apple/comments/6xg9xq/tip_of_the_day_one_thing_i_cant_live_without_in/</span>
+        <pre class="language-bash"><code class="language-bash"><span class="token comment"># Remove dock animation. https://www.reddit.com/r/apple/comments/6xg9xq/tip_of_the_day_one_thing_i_cant_live_without_in/</span>
 defaults <span class="token function">write</span> com.apple.dock autohide-delay -int <span class="token number">0</span>
 defaults <span class="token function">write</span> com.apple.dock autohide-time-modifier -float <span class="token number">0.4</span>
 <span class="token function">killall</span> Dock
