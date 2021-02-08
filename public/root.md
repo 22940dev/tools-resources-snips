@@ -2,22 +2,26 @@
 id: root
 title: Notes
 desc: ""
-updated: 1612795308445
+updated: 1612796014070
 created: 1595961348801
 stub: false
 ---
 
 # [My Extended Brain](https://epictools.dev/)
 
-This is currently an extension of [my wiki](https://wiki.nikitavoloboev.xyz). A place where I keep snippets of code/notes/config together with more extended place for thinking and connecting knowledge. It's using [Dendron](https://dendron.so) to make that happen.
+This is currently an extension of [my wiki](https://wiki.nikitavoloboev.xyz). A place where I keep snippets of code/notes/config. As well as a place for deep thinking and connecting knowledge in meaningful ways. All done with a goal to create a digital version of my brain that I can seamlessly query and gain insight from.
 
-I am working on Dendron tool to make it better for everyone, so this is a place where I will keep many experiments for how to do better note taking. Drawing inspiration from the [many wikis other uses haved shared](https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked) and other tools such as [Obsidian](https://obsidian.md), [Roam](https://roamresearch.com), [RemNote](https://www.remnote.io) and [Sublime Text](https://www.sublimetext.com).
+It's using [Dendron](https://dendron.so) to make that happen.
+
+As I am working on Dendron to make it better for everyone, I will also use this as a place to conduct thought experiments. Inspired greatly by [Andy](https://andymatuschak.org/) and the [many wikis others haved shared](https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked).
+
+The space of digital gardens is [still small](https://github.com/MaggieAppleton/digital-gardeners) and the tools are getting better. [Dendron](https://dendron.so), [Obsidian](https://obsidian.md), [Roam](https://roamresearch.com), [RemNote](https://www.remnote.io), [Sublime Text](https://www.sublimetext.com)..
+
+Gardens unlike blogs don't go stale and are easier to keep vibrant and grow organically. Take a look around and I hope I can inspire you to make your own [digital garden, where you share what you know](https://wiki.nikitavoloboev.xyz/#grow-your-own-digital-garden). I'd love to read it. 🌿
 
 The source of this garden is on [GitHub](https://github.com/nikitavoloboev/epictools.dev).
 
 You can access everything here using search above or [Alfred My Mind](https://github.com/nikitavoloboev/alfred-my-mind).
-
-If you like this, I'd love to see your own [digital garden, where you share what you know](https://wiki.nikitavoloboev.xyz/#grow-your-own-digital-garden).
 
 ## Contributing
 
