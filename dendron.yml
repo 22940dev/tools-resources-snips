@@ -1,7 +1,7 @@
 version: 1
-useNoteTitleForLink: false
 vaults:
-  - fsPath: vault
+  - fsPath: private
+  - fsPath: public
 useFMTitle: true
 site:
   copyAssets: true
@@ -10,5 +10,14 @@ site:
   siteRootDir: docs
   usePrettyRefs: true
   title: Dendron
-  siteUrl: https://epictools.dev
-  githubCname: epictools.dev
+  description: Testing
+  config:
+    root:
+      publishByDefault:
+        public: true
+        private: false
+duplicateNoteBehavior:
+  action: "useVault"
+  payload:
+    vault:
+      fsPath: public

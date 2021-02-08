@@ -1,10 +1,13 @@
 ---
 id: 95873c03-bcf5-4e96-8dde-93de466efa83
 title: Applescript
-desc: ''
-updated: 1612392113550
+desc: ""
+updated: 1612740770732
 created: 1612392113550
 ---
+
+[[hello]]
+
 ```applescript
 -- Scrape all URLs from all tabs in all windows
 -- https://forum.keyboardmaestro.com/t/save-and-restore-safari-session-tabs/15036/4
@@ -277,4 +280,3 @@ end run
 -- Run shell command in sudo mode
 do shell script "command here" with administrator privileges
 ```
-

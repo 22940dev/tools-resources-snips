@@ -1,11 +1,11 @@
 {
     "folders": [
         {
-            "path": "vault"
+            "path": "private"
+        },
+        {
+            "path": "public"
         }
-        // {
-        //   "path": "."
-        // }
     ],
     "settings": {
         "dendron.rootDir": ".",

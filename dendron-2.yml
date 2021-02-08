@@ -1,0 +1,15 @@
+version: 1
+useNoteTitleForLink: false
+vaults:
+  - fsPath: vault
+useFMTitle: true
+site:
+  copyAssets: true
+  siteHierarchies:
+    - root
+  siteRootDir: docs
+  usePrettyRefs: true
+  title: Dendron
+  siteUrl: https://epictools.dev
+  githubCname: epictools.dev
+  description: Testing

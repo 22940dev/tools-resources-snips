@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>Hammerspoon - Dendron</title>
+  <title>Vscode - Dendron</title>
   
 
   <link
@@ -41,22 +41,22 @@
 <meta name="description" content="">
 <meta name="author" content="">
 
-<link rel="canonical" href="https://epictools.dev/notes/cfb5b341-029a-4318-8c0f-8fc849f68ac7.html">
+<link rel="canonical" href="https://epictools.dev/notes/2adb53a6-9d7a-4f71-94ad-10adb7ec5eb5.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://epictools.dev/notes/cfb5b341-029a-4318-8c0f-8fc849f68ac7.html">
+<meta property="og:url" content="https://epictools.dev/notes/2adb53a6-9d7a-4f71-94ad-10adb7ec5eb5.html">
 <meta property="og:description" content="">
 <meta property="og:image" content="https://epictools.devundefined">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://epictools.dev/notes/cfb5b341-029a-4318-8c0f-8fc849f68ac7.html">
+<meta name="twitter:url" content="https://epictools.dev/notes/2adb53a6-9d7a-4f71-94ad-10adb7ec5eb5.html">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://epictools.devundefined">
 
 
-  <meta property="og:title" content="Hammerspoon - Dendron" />
-  <meta name="twitter:title" content="Hammerspoon - Dendron" />
+  <meta property="og:title" content="Vscode - Dendron" />
+  <meta name="twitter:title" content="Vscode - Dendron" />
   
 </head>
 
@@ -129,7 +129,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://epictools.dev">root</a></li><li class="breadcrumb-nav-list-item">Hammerspoon</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://epictools.dev">root</a></li><li class="breadcrumb-nav-list-item">Vscode</li></ol>
           </nav>
         
       
@@ -145,10 +145,10 @@
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Hammerspoon">
+    <meta itemprop="headline" content="Vscode">
     
-    <meta itemprop="datePublished" content="2021-02-03T23:41:53+00:00">
-    <meta itemprop="dateModified" content="2021-02-04T20:29:57+00:00">
+    <meta itemprop="datePublished" content="2021-02-04T20:30:07+00:00">
+    <meta itemprop="dateModified" content="2021-02-04T20:34:52+00:00">
 
     <div class="page__inner-wrap">
       
@@ -158,34 +158,7 @@
 
         
 
-        <h1 id="hammerspoon"><a aria-hidden="true" class="anchor-heading" href="#hammerspoon"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Hammerspoon</h1>
-<pre class="language-lua"><code class="language-lua"><span class="token comment">-- Call Hammerspoon functions from AppleScript</span>
-
-<span class="token comment">-- First activate applescript support:</span>
-hs<span class="token punctuation">.</span><span class="token function">allowAppleScript</span><span class="token punctuation">(</span><span class="token keyword">true</span><span class="token punctuation">)</span>
-
-<span class="token comment">-- Then you can call functions from your lua code like this:</span>
-tell application <span class="token string">"Hammerspoon"</span>
-execute lua code <span class="token string">"showClipBoardContent()"</span>
-<span class="token keyword">end</span> tell
-
-<span class="token comment">-- In the above case it would call showClipBoardContent() function</span>
-</code></pre>
-<pre class="language-lua"><code class="language-lua"><span class="token comment">-- Bind function to hotkey</span>
-hs<span class="token punctuation">.</span>hotkey<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token string">"ctrl"</span><span class="token punctuation">,</span> <span class="token string">"return"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-  hs<span class="token punctuation">.</span>notify<span class="token punctuation">.</span><span class="token function">new</span><span class="token punctuation">(</span><span class="token punctuation">{</span>title<span class="token operator">=</span><span class="token string">"Hammerspoon"</span><span class="token punctuation">,</span> informativeText<span class="token operator">=</span><span class="token string">"Hello World"</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">:</span><span class="token function">send</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token keyword">end</span><span class="token punctuation">)</span>
-</code></pre>
-<pre class="language-lua"><code class="language-lua"><span class="token comment">-- URL handler alert</span>
-
-hs<span class="token punctuation">.</span>urlevent<span class="token punctuation">.</span><span class="token function">bind</span><span class="token punctuation">(</span><span class="token string">"someAlert"</span><span class="token punctuation">,</span> <span class="token keyword">function</span><span class="token punctuation">(</span>eventName<span class="token punctuation">,</span> params<span class="token punctuation">)</span>
-    hs<span class="token punctuation">.</span>alert<span class="token punctuation">.</span><span class="token function">show</span><span class="token punctuation">(</span><span class="token string">"Hey there alert"</span><span class="token punctuation">)</span>
-<span class="token keyword">end</span><span class="token punctuation">)</span>
-
-<span class="token comment">-- After having this line in init.lua</span>
-<span class="token comment">-- you can then call it from the shell like so</span>
-open <span class="token operator">-</span>g hammerspoon<span class="token punctuation">:</span><span class="token operator">//</span>someAlert
-</code></pre><span id="navId" data="cfb5b341-029a-4318-8c0f-8fc849f68ac7"></span>
+        <h1 id="vscode"><a aria-hidden="true" class="anchor-heading" href="#vscode"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vscode</h1><span id="navId" data="2adb53a6-9d7a-4f71-94ad-10adb7ec5eb5"></span>
 
 
 
