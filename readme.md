@@ -14,6 +14,8 @@ The source of this garden is on [GitHub](https://github.com/nikitavoloboev/epict
 
 You can access everything here using search above or [Alfred My Mind](https://github.com/nikitavoloboev/alfred-my-mind).
 
+This wiki was initially made with GitBook, a version of which you can find [here](https://code.nikitavoloboev.xyz). It will be removed as soon as Dendron search gets better. 😊
+
 ## Contributing
 
 If you found a mistake anywhere, I would appreciate your help. Dendron provides a quick way to open GitHub page for any entry so you can make changes and submit a PR.

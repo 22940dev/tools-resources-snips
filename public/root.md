@@ -1,6 +1,6 @@
 ---
 id: root
-updated: 1612796147977
+updated: 1612796452360
 created: 1595961348801
 stub: false
 ---
@@ -20,6 +20,8 @@ Gardens unlike blogs don't go stale and are easier to keep vibrant and grow orga
 The source of this garden is on [GitHub](https://github.com/nikitavoloboev/epictools.dev).
 
 You can access everything here using search above or [Alfred My Mind](https://github.com/nikitavoloboev/alfred-my-mind).
+
+This wiki was initially made with GitBook, a version of which you can find [here](https://code.nikitavoloboev.xyz). It will be removed as soon as Dendron search gets better. 😊
 
 ## Contributing
 
