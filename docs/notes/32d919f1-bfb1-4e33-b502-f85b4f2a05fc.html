@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   
-  <title>JavaScript - 🏡</title>
+  <title>Dendron - 🏡</title>
   
 
   <link
@@ -41,22 +41,22 @@
 <meta name="description" content="Personal wiki">
 <meta name="author" content="">
 
-<link rel="canonical" href="https://epictools.dev/notes/7fa13109-2af3-4e97-bea4-241646173a56.html">
+<link rel="canonical" href="https://epictools.dev/notes/32d919f1-bfb1-4e33-b502-f85b4f2a05fc.html">
 
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://epictools.dev/notes/7fa13109-2af3-4e97-bea4-241646173a56.html">
+<meta property="og:url" content="https://epictools.dev/notes/32d919f1-bfb1-4e33-b502-f85b4f2a05fc.html">
 <meta property="og:description" content="Personal wiki">
 <meta property="og:image" content="https://epictools.devundefined">
 
 <meta name="twitter:card" content="summary">
 
-<meta name="twitter:url" content="https://epictools.dev/notes/7fa13109-2af3-4e97-bea4-241646173a56.html">
+<meta name="twitter:url" content="https://epictools.dev/notes/32d919f1-bfb1-4e33-b502-f85b4f2a05fc.html">
 <meta name="twitter:description" content="Personal wiki">
 <meta name="twitter:image" content="https://epictools.devundefined">
 
 
-  <meta property="og:title" content="JavaScript - 🏡" />
-  <meta name="twitter:title" content="JavaScript - 🏡" />
+  <meta property="og:title" content="Dendron - 🏡" />
+  <meta name="twitter:title" content="Dendron - 🏡" />
   
 </head>
 
@@ -129,7 +129,7 @@
       
         
           <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://epictools.dev">Root</a></li><li class="breadcrumb-nav-list-item">JavaScript</li></ol>
+            <ol class="breadcrumb-nav-list"><li class="breadcrumb-nav-list-item"><a href="https://epictools.dev">Root</a></li><li class="breadcrumb-nav-list-item">Dendron</li></ol>
           </nav>
         
       
@@ -156,10 +156,10 @@
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="JavaScript">
+    <meta itemprop="headline" content="Dendron">
     
-    <meta itemprop="datePublished" content="2021-02-03T23:41:53+00:00">
-    <meta itemprop="dateModified" content="2021-02-03T23:41:53+00:00">
+    <meta itemprop="datePublished" content="2021-02-08T19:25:07+00:00">
+    <meta itemprop="dateModified" content="2021-02-09T21:39:31+00:00">
 
     <div class="page__inner-wrap">
       
@@ -169,28 +169,11 @@
 
         
 
-        <pre class="language-js"><code class="language-js"><span class="token comment">// Click on buttons in a page</span>
-<span class="token comment">// https://twitter.com/brian_lovin/status/1240662440666222597</span>
-
-<span class="token keyword">let</span> buttons <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">getElementsByClassName</span><span class="token punctuation">(</span><span class="token string">"unfollow"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-
-<span class="token keyword control-flow">for</span> <span class="token punctuation">(</span><span class="token keyword">let</span> <span class="token punctuation">[</span>i<span class="token punctuation">,</span> v<span class="token punctuation">]</span> <span class="token keyword">of</span> <span class="token punctuation">[</span><span class="token spread operator">...</span>buttons<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token method function property-access">entries</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token function">setTimeout</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> <span class="token punctuation">{</span>
-    buttons<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">.</span><span class="token method function property-access">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-  <span class="token punctuation">}</span><span class="token punctuation">,</span> i <span class="token operator">*</span> <span class="token number">500</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-</code></pre>
-<pre class="language-js"><code class="language-js"><span class="token comment">// Go to specific URL</span>
-<span class="token dom variable">window</span><span class="token punctuation">.</span><span class="token property-access">location</span><span class="token punctuation">.</span><span class="token property-access">href</span> <span class="token operator">=</span> <span class="token string">"https://www.google.com"</span><span class="token punctuation">;</span>
-</code></pre>
-<pre class="language-js"><code class="language-js"><span class="token comment">// Speed up video playback. Put in console of open page.</span>
-<span class="token function">$</span><span class="token punctuation">(</span><span class="token string">"video"</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token property-access">playbackRate</span> <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
-</code></pre>
-<pre class="language-js"><code class="language-js"><span class="token comment">// click on all the expand buttons on https://github.com/</span>
-<span class="token keyword">var</span> inputs <span class="token operator">=</span> <span class="token dom variable">document</span><span class="token punctuation">.</span><span class="token method function property-access">querySelectorAll</span><span class="token punctuation">(</span><span class="token string">"svg[aria-label=Expand]"</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> buttons <span class="token operator">=</span> <span class="token known-class-name class-name">Array</span><span class="token punctuation">.</span><span class="token keyword module">from</span><span class="token punctuation">(</span>inputs<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token method function property-access">map</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> e<span class="token punctuation">.</span><span class="token property-access">parentElement</span><span class="token punctuation">.</span><span class="token property-access">parentElement</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-buttons<span class="token punctuation">.</span><span class="token method function property-access">forEach</span><span class="token punctuation">(</span><span class="token punctuation">(</span><span class="token parameter">b</span><span class="token punctuation">)</span> <span class="token arrow operator">=></span> b<span class="token punctuation">.</span><span class="token method function property-access">click</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-</code></pre><span id="navId" data="7fa13109-2af3-4e97-bea4-241646173a56"></span>
+        <ul>
+<li><code>markdown/remark</code> is place where markdown gets transformed.</li>
+<li><code>dendronPub</code> is transformer</li>
+<li><code>proc</code> means processor in code. It's used for parsing &#x26; comes from <a href="https://remark.js.org/">remark</a></li>
+</ul><span id="navId" data="32d919f1-bfb1-4e33-b502-f85b4f2a05fc"></span>
 
 
 
