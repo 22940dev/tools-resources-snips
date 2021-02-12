@@ -1,9 +1,11 @@
 ---
-id: e86ac3ab-dbe1-47a1-bcd7-9df0d0490b40
-title: Quickstart
+id: 32d919f1-bfb1-4e33-b502-f85b4f2a05fc
+title: Dendron
 desc: ""
-updated: 1612615182296
-created: 1595170096361
-stub: false
-nav_order: 1
+updated: 1612903171290
+created: 1612808707554
 ---
+
+- `markdown/remark` is place where markdown gets transformed.
+- `dendronPub` is transformer
+- `proc` means processor in code. It's used for parsing & comes from [remark](https://remark.js.org/)
