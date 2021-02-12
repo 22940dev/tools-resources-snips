@@ -1,10 +1,11 @@
 ---
 id: e5046a2f-732e-42f7-adb6-81f9c8a1b908
 title: Cmd
-desc: ''
+desc: ""
 updated: 1612392113550
 created: 1612392113550
 ---
+
 ### [screencapture](https://ss64.com/osx/screencapture.html) (capture images from screen)
 
 ```bash
@@ -277,4 +278,3 @@ time (time command execution)
 # Time how long command took to run
 time <cmd>
 ```
-
