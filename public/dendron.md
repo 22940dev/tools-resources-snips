@@ -2,7 +2,7 @@
 id: 32d919f1-bfb1-4e33-b502-f85b4f2a05fc
 title: Dendron
 desc: ""
-updated: 1614987018312
+updated: 1615000973170
 created: 1612808707554
 ---
 
@@ -18,3 +18,7 @@ created: 1612808707554
 - use `src/` imports for auto importing modules from suggestions (over lib)
 - prefer `@package` on imports
 - dendron looks for `dendron.code-workspace` file, if it finds it, it will open dendron workspace automatically
+
+## Workflow
+
+- Dendron is quite awesome, I need to go a bit more heavy on file creation I think and take advantage of easy creation and refactoring of notes.

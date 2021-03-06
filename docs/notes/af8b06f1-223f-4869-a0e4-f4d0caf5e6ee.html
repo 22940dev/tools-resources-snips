@@ -147,7 +147,7 @@
 
         <script>
           $(function () {
-            $('[data-toggle="popover"]').popover()
+            $('[data-toggle="popover"]').popover({html: true})
           })
         </script>
 
@@ -162,7 +162,7 @@
     <meta itemprop="dateModified" content="2021-02-03T23:41:53+00:00">
 
     <div class="page__inner-wrap">
-      
+
       
 
       <section class="page__content" itemprop="text">
@@ -276,9 +276,6 @@
 <span class="token function">git</span> config --global --add alias.pr-clean <span class="token string">'!git checkout master ; git for-each-ref refs/heads/pr/* --format="%(refname)" | while read ref ; do branch=<span class="token variable">${ref<span class="token operator">#</span>refs<span class="token operator">/</span>heads<span class="token operator">/</span>}</span> ; git branch -D <span class="token variable">$branch</span> ; done'</span>
 </code></pre><span id="navId" data="af8b06f1-223f-4869-a0e4-f4d0caf5e6ee"></span>
 
-
-
-
                 
       </section>
 
@@ -300,11 +297,8 @@
             
 
             
-              <div class="d-flex mt-2">
-                
                 
               </div>
-            
           </footer>
         
     </div>

@@ -147,7 +147,7 @@
 
         <script>
           $(function () {
-            $('[data-toggle="popover"]').popover()
+            $('[data-toggle="popover"]').popover({html: true})
           })
         </script>
 
@@ -162,7 +162,7 @@
     <meta itemprop="dateModified" content="2021-02-03T23:41:53+00:00">
 
     <div class="page__inner-wrap">
-      
+
       
 
       <section class="page__content" itemprop="text">
@@ -183,9 +183,6 @@ nix-env -i ./result
 <pre class="language-bash"><code class="language-bash"><span class="token comment"># Garbage collect</span>
 <span class="token function">sudo</span> nix-collect-garbage --delete-older-than 30d
 </code></pre><span id="navId" data="a8c8fe38-b1c5-40ca-b51e-f22066e82583"></span>
-
-
-
 
                 
       </section>
@@ -208,11 +205,8 @@ nix-env -i ./result
             
 
             
-              <div class="d-flex mt-2">
-                
                 
               </div>
-            
           </footer>
         
     </div>

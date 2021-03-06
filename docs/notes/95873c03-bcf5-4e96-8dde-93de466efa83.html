@@ -147,7 +147,7 @@
 
         <script>
           $(function () {
-            $('[data-toggle="popover"]').popover()
+            $('[data-toggle="popover"]').popover({html: true})
           })
         </script>
 
@@ -162,14 +162,16 @@
     <meta itemprop="dateModified" content="2021-02-08T00:32:50+00:00">
 
     <div class="page__inner-wrap">
-      
+
       
 
       <section class="page__content" itemprop="text">
 
         
 
-        <p><a href="https://epictools.dev/notes/403.html">hello</a></p>
+        <p><a data-toggle="popover" title="This page has not yet sprouted" style="cursor: pointer" data-content="<a href=&#x22;https://dendron.so/&#x22;>Dendron</a> (the tool used to generate this site) lets authors selective publish content. You will see this page whenever you click on a link to an unpublished page
+
+<img src=&#x27;https://foundation-prod-assetspublic53c57cce-8cpvgjldwysl.s3-us-west-2.amazonaws.com/assets/images/not-sprouted.png&#x27;></img>">hello</a></p>
 <pre class="language-applescript"><code class="language-applescript"><span class="token comment">-- Scrape all URLs from all tabs in all windows</span>
 <span class="token comment">-- https://forum.keyboardmaestro.com/t/save-and-restore-safari-session-tabs/15036/4</span>
 <span class="token keyword">set</span> AppleScript's <span class="token class builtin">text</span> item delimiters <span class="token keyword">to</span> linefeed
@@ -398,9 +400,6 @@ osascript <span class="token operator">-</span>e <span class="token string">"tel
 do shell <span class="token class builtin">script</span> <span class="token string">"command here"</span> <span class="token keyword">with</span> administrator privileges
 </code></pre><span id="navId" data="95873c03-bcf5-4e96-8dde-93de466efa83"></span>
 
-
-
-
                 
       </section>
 
@@ -422,11 +421,8 @@ do shell <span class="token class builtin">script</span> <span class="token stri
             
 
             
-              <div class="d-flex mt-2">
-                
                 
               </div>
-            
           </footer>
         
     </div>
