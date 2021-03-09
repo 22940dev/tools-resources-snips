@@ -10,10 +10,6 @@ created: 1612808707554
 
 - There is task in tasks.json for dendron-cli. `build-site`. Change command to point at the workspace you want to test.
 
-## Workflow
-
-- Dendron is quite awesome, I need to go a bit more heavy on file creation I think and take advantage of easy creation and refactoring of notes.
-
 ## Notes
 
 - `markdown/remark` is place where markdown gets transformed.

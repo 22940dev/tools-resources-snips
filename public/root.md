@@ -11,7 +11,7 @@ This is currently an extension of [my wiki](https://wiki.nikitavoloboev.xyz). A 
 
 It's using [Dendron](https://dendron.so) to make that happen.
 
-As I am working on Dendron to make it better for everyone, I will also use this as a place to conduct thought experiments. Inspired greatly by [Andy](https://andymatuschak.org/) and the [many wikis others haved shared](https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked).
+This wiki is inspired greatly by [Andy](https://andymatuschak.org/) and the [many wikis others have shared](https://wiki.nikitavoloboev.xyz/other/wiki-workflow#similar-wikis-i-liked).
 
 The space of digital gardens is [still small](https://github.com/MaggieAppleton/digital-gardeners) and the tools are getting better. [Dendron](https://dendron.so), [Obsidian](https://obsidian.md), [Roam](https://roamresearch.com), [RemNote](https://www.remnote.io), [Sublime Text](https://www.sublimetext.com)..
 
