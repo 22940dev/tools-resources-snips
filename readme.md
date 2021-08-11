@@ -1,6 +1,6 @@
 # [My Extended Brain 🌿](https://epictools.dev/)
 
-This is currently an extension of [my wiki](https://wiki.nikitavoloboev.xyz). A place where I keep snippets of code/notes/config. As well as a place for deep thinking and connecting knowledge in meaningful ways. All done with a goal to create a digital version of my brain that I can seamlessly query and gain insight from.
+This currently an extension of [my wiki](https://wiki.nikitavoloboev.xyz). A place where I keep snippets of code/notes/config. As well as a place for deep thinking and connecting knowledge in meaningful ways. All done with a goal to create a digital version of my brain that I can seamlessly query and gain insight from.
 
 It's using [Dendron](https://dendron.so) to make that happen.
 
